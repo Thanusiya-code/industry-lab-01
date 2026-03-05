@@ -1,5 +1,7 @@
 package ictgradschool.industry.introtojava.basics;
 
+import java.sql.SQLOutput;
+
 /**
  *  This exercise is used to practice basic variables
  *
@@ -20,11 +22,13 @@ public class VariablesMain {
         System.out.println("The age is " + age);
 
         // TODO Step 2) Create a second int variable called monthsSinceBirthday and assign a number of months between 1-11
-
+        int monthsSinceBirthday = 1;
         // TODO Step 3) Create a 'System.out...' statement to output the monthsSinceBirthday variable with an appropriate message
-
+        System.out.println("Months since Birthday "+ monthsSinceBirthday);
         // TODO  Step 4) Follow the instructions in the lab to calculate the value of the 'daysOnEarth' variable
-        int daysOnEarth = 0;
+        int daysOnEarth = monthsSinceBirthday *30;
+        System.out.println("Days on earth: " + daysOnEarth);
+
 
     }
 
