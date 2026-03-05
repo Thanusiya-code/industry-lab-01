@@ -1,13 +1,11 @@
 package ictgradschool.industry.introtojava.basics;
 
-import java.sql.SQLOutput;
 
 /**
  *  This exercise is used to practice basic variables
- *
+ *  <p>
  *  Run this program to view the output in the console then
  *  complete the steps outline in the 'Variables' lab exercise
- *
  * */
 
 public class VariablesMain {
