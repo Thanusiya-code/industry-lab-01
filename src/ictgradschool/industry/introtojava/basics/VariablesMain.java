@@ -25,7 +25,7 @@ public class VariablesMain {
         int monthsSinceBirthday = 7;
         // TODO Step 3) Create a 'System.out...' statement to output the monthsSinceBirthday variable with an appropriate message
         System.out.println("Months since Birthday :"+ monthsSinceBirthday);
-        // TODO  Step 4) Follow the instructions in the lab to calculate the value of the 'daysOnEarth' variable
+//        TODO  Step 4) Follow the instructions in the lab to calculate the value of the 'daysOnEarth' variable
         int daysOnEarth = (age * 365) +monthsSinceBirthday *30;
         System.out.println("Days on earth: "  + daysOnEarth);
 
