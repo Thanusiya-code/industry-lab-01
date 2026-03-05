@@ -21,7 +21,7 @@ public class DebugExercise {
         System.out.println("4) Create a variable called integerOne and set it to 5");
         int integerOne = 5;
         System.out.println("5) Create a variable called integerTwo and set it to 0");
-        int integerTwo = 0;
+        int integerTwo = 2;
 
         System.out.println("6) Add integerOne and integerTwo together and assign the result to a new variable");
         int resultOne = integerOne + integerTwo;
