@@ -21,15 +21,25 @@ public class DebugExercise {
         System.out.println("4) Create a variable called integerOne and set it to 5");
         int integerOne = 5;
         System.out.println("5) Create a variable called integerTwo and set it to 0");
-        int integerTwo = 2;
+        int integerTwo = 0;
 
         System.out.println("6) Add integerOne and integerTwo together and assign the result to a new variable");
+
         int resultOne = integerOne + integerTwo;
         System.out.println("7) The result is: " + resultOne);
 
         System.out.println("8) Divide integerOne by integerTwo and assign the result to a new variable");
-        int resultTwo = integerOne / integerTwo;
-        System.out.println("9) The result is: " + resultTwo);
+//using try-catch to avoid error if the value of denominator is equal to 0
+        try {
+            int resultTwo = integerOne / integerTwo;
+            System.out.println("9) The result is: " + resultTwo);
+        }catch (ArithmeticException e) {
+            System.out.println("9)Error: Division by zero is not allowed.");
+        }
+
+
+
+
 
     }
 
@@ -38,6 +48,7 @@ public class DebugExercise {
         DebugExercise program = new DebugExercise();
         System.out.println("2) Call the start method of the program instance");
         program.start();
+
     }
 
 }
