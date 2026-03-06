@@ -27,7 +27,7 @@ public class CastingExercise {
         System.out.println("The number stored in 'testDouble' of the datatype double is: " + testDouble);
 
         // TODO: Cast the variable 'testDouble' to an integer and assign the result to the variable 'testInt' (hint: it should look something like this -->  (int) variableName )
-        int testInt = 0;
+        int testInt = (int)testDouble;
 
         // Output a System.out... message to display the result; when you complete the casting correctly on the line above, you should see the correct result in the output:
         System.out.println("The variable 'testDouble' containing the value " + testDouble + " when cast to an integer is " + testInt + ".");
@@ -35,8 +35,8 @@ public class CastingExercise {
 
         // TODO: try uncommenting these lines and use casting to cast the floating point number to an integer
 
-        // int intVariableOne = 12.87654;
-        // System.out.println("The value of 'intVariableOne' is: " + intVariableOne);
+         int intVariableOne = (int)12.87654;
+         System.out.println("The value of 'intVariableOne' is: " + intVariableOne);
 
     }
 
