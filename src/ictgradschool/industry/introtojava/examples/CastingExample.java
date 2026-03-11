@@ -24,7 +24,7 @@ public class CastingExample {
         // An example char to demonstrate that we don't need to cast when going from char to int
         char exampleCharTwo = 'W';
         int exampleIntTwo = exampleCharTwo;
-
+        System.out.println(exampleIntTwo);
     }
 
     public static void main(String[] args) {
