@@ -50,10 +50,19 @@ You can now compile and run the class by clicking on the green arrow icon next t
 
 ### Questions:
 1. What does this class do?
+Print a message "hello World"
 2. Where are the classes generated and stored by IntelliJ?
+by default in the out folder
 3. Where do you see the messages after running the program in IntelliJ?
+in the console
 4. What are the different ways of running this class in IntelliJ?
+green arrows at the class header/main method
+right click on the MyFirstProgram.java file
+
 5. What are some of the useful shortcut keys you found in IntelliJ? 
+CTRL + shift + R = run the program
+CTRL + shift + D = Debug 
+Cmd + Option + L = indent
 
 ## Exercise Two: Add a New Class to an Existing Project 
 
@@ -72,7 +81,9 @@ Notice that you now have a compilation error associated with the package. Try to
 
 ### Questions: 
 1. What happened to MySecondProgram class after you have fixed the error?
+print hello world
 2. What are packages used for?
+packages are organised in a hierarchical structrue, much like ordinary directories.
 
 Modify MyFirstProgram class to the following: 
 ```java
@@ -87,15 +98,17 @@ You should have a compilation error associated with MySecondProgram. Try to reso
 
 ### Questions: 
 1. What does the keyword import do in Java?
+The import keyword is used to import a package, class or interface.
 2. How would you resolve the compilation error without using the import keyword? 
+Make the two classes in MyFristProgram and MySecondProgram in the same package.
 
 ## Exercise Three: Evaluation of Expressions 
 
 What output do you think would be produced by each of the following code fragments? (You can work on this exercise on paper) 
 
-1. `System.out.println((int)2.9 * 4.5);`
-2. `System.out.println(Math.max(5,60) % Math.min(12,7));`
-3. `System.out.println(0.2 * 3 / 2 + 3 / 2 * 3.2);`
+1. `System.out.println((int)2.9 * 4.5);` 9.0
+2. `System.out.println(Math.max(5,60) % Math.min(12,7));`4
+3. `System.out.println(0.2 * 3 / 2 + 3 / 2 * 3.2);`3.5
 
 ## Exercise Four: The Basics - Variables, Debugging, Math, and Casting
 
