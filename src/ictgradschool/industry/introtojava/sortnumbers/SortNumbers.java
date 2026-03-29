@@ -12,12 +12,16 @@ public class SortNumbers {
 	 * Sorting numbers in order.
 	 */
 	public void sortNumberByAscending(int number1, int number2, int number3, int number4) {
-		int first = 0;
-		int second = 0;
-		int third = 0;
-		int fourth = 0;
-		// Answer here
 
+		// Answer here
+		int first = Math.min(Math.min(number1,number2),Math.min(number3,number4));
+		int tempSecond = Math.min(Math.max(number1, number2), Math.max(number3, number4));
+		int tempThird = Math.max(Math.min(number1, number2), Math.min(number3, number4));
+
+		int second = Math.min(tempSecond, tempThird);
+		int third = Math.max(tempSecond, tempThird);
+
+		int fourth = Math.max(Math.max(number1, number2), Math.max(number3, number4));
 		//
 		System.out.println("The numbers are: " + first + ", " + second + ", " + third + ", " + fourth);
 	}
